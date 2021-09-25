@@ -1,0 +1,39 @@
+footer {
+    display: flex;
+    padding-bottom: 30px;
+    border-top: 3px solid #303030;
+    margin-top: 50px;
+}
+
+#footer {
+    padding-top: 70px;
+    margin: 0 auto 0 auto;
+    color: white;
+}
+
+#footer ul {
+    padding-left: 260px;
+    padding-bottom: 30px;
+}
+
+#lista-rodape {
+    display: flex;
+    gap: 30px;
+}
+
+#lista-rodape li {
+    opacity: 0.5;
+    transition: 0.8s;
+}
+
+#lista-rodape li:hover {
+    opacity: 1;
+}
+
+footer#desenvolvedores {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto 0 auto;
+    color: white;
+}

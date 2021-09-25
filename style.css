@@ -1,0 +1,145 @@
+body {
+    background: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h3 {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.menu {
+    list-style: none;
+    float: left;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+}
+
+.menu li a {
+    color: #FFF;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    background: #f40612;
+    margin: 0 10px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    letter-spacing: 1px;
+}
+
+.menu li a:hover {
+    background: #FFF;
+    color: #f40612;
+}
+
+.slide01 {
+    background: url(images/paralax-01.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 200px;
+}
+
+.slide01 h2 {
+    color: #FFF !important;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.slide01 h3 {
+    color: #FFF !important;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.fontsite {
+    color: #FFF;
+    text-align: center;
+    padding: 50px;
+}
+
+.fontsite p {
+    font-size: 30px;
+}
+
+.fontsite h2 {
+    font-size: 70px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.textosite p {
+    color: #FFF;
+    padding: 20px;
+}
+
+.textosite li {
+    color: #FFF;
+}
+
+.imghomoe {
+    text-align: center;
+}
+
+.imghomoe img {}
+
+.imghomoe img {
+    padding: 20px;
+}
+
+legend {
+    color: #FFF;
+    color: #F;
+}
+
+form {
+    color: #FFF;
+}
+
+#Contato,
+#usuario {
+    width: 40%;
+    margin: 0 auto;
+}
+
+input {
+    width: 94%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background: #f40612;
+    border: none;
+    padding: 10px 15px;
+    color: #FFF;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #FFFFFF;
+    color: #f40612;
+}
+
+#msg {
+    width: 97%;
+    height: 300px;
+}
+
+#lista-rodape li {
+    list-style: none;
+}
+
+.butsubir img {
+    width: 50%;
+    margin: 10px;
+    }
